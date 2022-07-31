@@ -1,0 +1,15 @@
+name: CommandBlockFinder
+main: io.github.meeples10.commandblockfinder.Main
+version: %PROJECT_VERSION%
+author: Meeples10
+description: %PROJECT_DESCRIPTION%
+api-version: 1.18
+commands:
+  commandblockfinder:
+    description: View the list of active command blocks.
+    usage: /commandblockfinder [page]
+    permission: commandblockfinder.use
+permissions:
+  bulkminer.use:
+    description: Allows players to use the plugin
+    default: true
