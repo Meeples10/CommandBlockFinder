@@ -57,6 +57,11 @@
 			<version>1.19-R0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.github.meeples10</groupId>
+			<artifactId>meepcore</artifactId>
+			<version>1.4.2</version>
+		</dependency>
 	</dependencies>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
