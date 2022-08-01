@@ -26,7 +26,7 @@ public class Main extends JavaPlugin {
         } catch(Exception e) {
             e.printStackTrace();
         }
-        this.getCommand("cbf").setExecutor(new CommandCBF("command.commandblockfinder.cbf.usage"));
+        this.getCommand("cbf").setExecutor(new CommandCBF("command.commandblockfinder.usage"));
         Bukkit.getPluginManager().registerEvents(new CommandBlockListener(), Bukkit.getPluginManager().getPlugin(NAME));
     }
 
